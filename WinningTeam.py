@@ -1,0 +1,17 @@
+a3 = int(input())
+a2 = int(input())
+a1 = int(input())
+b3 = int(input())
+b2 = int(input())
+b1 = int(input())
+
+atotal = a3 * 3 + a2 * 2 + a1
+btotal = b3 * 3 + b2 * 2 + b1
+if atotal > btotal:
+    print('A')
+elif btotal > atotal:
+    print('B')
+else:
+    print('T')
+
+# Zingaro, Daniel. Learn to Code by Solving Problems: A Python Programming Primer (p. 36). No Starch Press. Kindle Edition. 
